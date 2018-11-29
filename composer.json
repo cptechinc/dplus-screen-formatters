@@ -1,0 +1,38 @@
+{
+	"name": "cptechinc/dplus-screen-formatters",
+    "type": "library",
+    "description": "Dplus Screen Formatter Library",
+    "keywords": ["dplus-screen-formatters"],
+	"homepage": "https://github.com/cptechinc/dplus-screen-formatters",
+	"authors": [
+        {
+            "name": "Paul Gomez",
+            "email": "paul@cptechinc.com",
+            "homepage": "https://www.cptechinc.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Barbara Bullemer",
+            "email": "barbara@cptechinc.com",
+            "homepage": "https://www.cptechinc.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/cptechinc/purl.git"
+        }
+    ],
+	"require": {
+        "atk4/dsql": "1.1",
+        "jwage/purl": "dev-cptechinc",
+        "cptechinc/dplus-processwire": "dev-master",
+        "cptechinc/dplus-content": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+            "Dplus\\ScreenFormatters\\": "src/"
+		}
+	}
+}
