@@ -69,7 +69,7 @@
 		 */
 		public function set_debug($debug) {
 			$this->debug = $debug;
-			$this->load_filepath();
+			$this->get_filepath();
 		}
 		
 		/**
